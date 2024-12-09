@@ -55,6 +55,11 @@ plan:
             path: contracts/identity-dao.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: skill-verification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/skill-verification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: user-registry
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/user-registry.clar
